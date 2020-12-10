@@ -12,7 +12,6 @@ Clone the repo:
 
 git clone https://github.com/NgHuuAn/Redis-Manager-in-cPanel
 
-
 As root, do the following:
 
 cd Redis-Manager-in-cPanel
