@@ -8,7 +8,7 @@ $stylesheetsAndMetaTags = '
     <link rel="stylesheet" href="style.css" charset="utf-8"/>
 ';
 
-$cpanelHeader = str_replace('</head>', $stylesheetsAndMetaTags . '</head>', $cpanel->header( "Redis Manager by RSO Hosting" ));
+$cpanelHeader = str_replace('</head>', $stylesheetsAndMetaTags . '</head>', $cpanel->header( "Redis Manager" ));
 echo $cpanelHeader;
 
 ?>
@@ -18,7 +18,7 @@ echo $cpanelHeader;
 Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. 
 </p>
 <div class="section">
-<h2>Redis Status</h2> <div class="circle red">Red</div>
+<h2>Redis Status</h2> <div class="circle red">Click here to enable Redis Socket</div>
   <input  type="checkbox" 
           class="check check1" id="checkbox">
 </div>
